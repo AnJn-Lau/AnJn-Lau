@@ -1,0 +1,116 @@
+/*margin 0-50 */
+@for $i from 0 through 10{
+  .m-#{$i*4}{margin: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .ml-#{$i*4}{margin-left: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .mr-#{$i*4}{margin-right: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .mb-#{$i*4}{margin-bottom: 4px * $i !important;;}
+}
+@for $i from 0 through 9{
+  .mt-#{$i}{margin-top: 1px * $i !important;;}
+}
+@for $i from 1 through 10{
+  .mt-#{$i*4}{margin-top: 4px * $i !important;;}
+}
+/*padding 0-50 */
+@for $i from 0 through 10{
+  .p-#{$i*4}{padding: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .pl-#{$i*4}{padding-left: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .pr-#{$i*4}{padding-right: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .pb-#{$i*4}{padding-bottom: 4px * $i !important;;}
+}
+
+@for $i from 0 through 10{
+  .pt-#{$i*4}{padding-top: 4px * $i !important;;}
+}
+//font
+@for $i from 12 through 30{
+  .f-#{$i}{font-size:1px*$i !important;}
+}
+.pa{
+  position: absolute;
+}
+.pr{
+  position: relative;
+}
+.vm{
+  vertical-align: middle;
+}
+//宽度
+@for $i from 3 through 10{
+  .w-#{$i*10}{width:10px*$i !important;}
+}
+@for $i from 11 through 50{
+  .w-#{$i*10}{width:10px*$i !important;}
+}
+@for $i from 1 through 10{
+  .wb-#{$i*10}{width: 10% * $i !important;}
+}
+a:hover,a:active,a:focus{
+  text-decoration: none;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+//字体
+/* === Roboto === */
+@font-face {font-family: 'Roboto';
+  src: url('./Number/Roboto.eot'); /* IE9*/
+  src: url('./Number/Roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./Number/Roboto.woff') format('woff'), /* chrome、firefox */
+  url('./Number/Roboto.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('./Number/Roboto.svg') format('svg'); /* iOS 4.1- */
+}
+/* === BlenderPro === */
+@font-face {font-family: 'BlenderPro';
+  src: url('./Number/BlenderPro.eot'); /* IE9*/
+  src: url('./Number/BlenderPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./Number/BlenderPro.woff') format('woff'), /* chrome、firefox */
+  url('./Number/BlenderPro.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('./Number/BlenderPro.svg') format('svg'); /* iOS 4.1- */
+}
+@font-face {
+  font-family: 'Agency-fb-bold';
+  src: url('./Number/agency-fb-bold.eot');
+  src: url('./Number/agency-fb-bold.eot?#iefix') format('embedded-opentype'),
+  url('./Number/agency-fb-bold.woff2') format('woff2'),
+  url('./Number/agency-fb-bold.woff') format('woff'),
+  url('./Number/agency-fb-bold.ttf') format('truetype'),
+  url('./Number/agency-fb-bold.svg') format('svg');
+}
+.ff-Roboto{
+  font-family: 'Roboto';
+}
+.ff-BlenderPro{
+  font-family: 'BlenderPro';
+}
+.ff-AgencyFB{
+  font-family: 'Agency-fb-bold';
+}
+ul{
+  padding: 0;
+  margin: 0;
+  li{
+    list-style: none;
+  }
+}
